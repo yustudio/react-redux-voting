@@ -1,5 +1,7 @@
 import {List, Map} from 'immutable';
 
+export const INITIAL_STATE = Map();
+
 export function setEntries(state, entries) {
 	// pass the given entries into the List constructor 
 	// so that input entries to be a regular JavaScript 
